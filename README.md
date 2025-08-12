@@ -1,6 +1,6 @@
 # Tailoring radiative heat transfer in quasi-1D flat-band stub lattices composed of plasmonic nanoparticles
 
-## Environments
+## Environments & Packages
 
 - Python
 - Matplotlib
