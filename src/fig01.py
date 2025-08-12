@@ -5,8 +5,7 @@
 @Author  :   Zhen Gong
 @Version :   0.1
 @Contact :   zhengong@sjtu.edu.cn
-@Desc    :   This script is used to present the IP and OP mode band structure under
-periodic boundary conditions
+@Desc    :   This script is used to present the IP and OP mode band structure under periodic boundary conditions
 """
 
 # %% Packages import
@@ -24,9 +23,10 @@ from scipy.constants import pi
 
 proj_root = Path(__file__).parents[1]
 
-# %% Load data and plot
+sns.set_theme("paper", style="ticks")
 with open(proj_root / "src/alias.yml") as f:
     alias = yaml.safe_load(f)
+# %% Load data and plot
 datapath = proj_root / "data/fig01_band_structures_pbc.h5"
 fig, axs = plt.subplots(1, 2, figsize=(6, 3), sharey=True)
 # 1. QSNN Line plot
