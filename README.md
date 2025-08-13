@@ -11,8 +11,11 @@
 
 ## Data collections
 
+The raw data (in HDF5 format) of all the plot and subplot in Figs. 1-8 are included in `./data` folder. 
 
 ## Figures
+Numerical results are presented bellow.
+
 ### FIG. 1: Band structure of the stub lattice under periodic boundary condition
 
 ![Figure 1](.assets/fig01.png)
@@ -41,4 +44,10 @@
 ![Figure 6](.assets/fig06.png)
 
 
-### FIG. 7
+### FIG. 7: Characteristic time of heating/cooling modes and temperature revolution
+
+![Figure 7](.assets/fig07.png)
+
+
+### FIG. 8 Temperature field revolution 
+![Figure 8](.assets/fig08.png)
