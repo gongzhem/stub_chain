@@ -1,9 +1,0 @@
-wn: Wave number (cm$^{-1}$)
-wl: Wave length (um)
-ht: RHT Power (W)
-ht_wn: Spectral RHT Power (W cm)
-eig_wn: Eigenfrequency (cm$^{-1}$)
-sn: State No.
-x: x (um)
-y: y (um)
-freq: $\omega$ (cm$^{-1}$)
